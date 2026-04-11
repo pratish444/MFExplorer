@@ -5,20 +5,20 @@ A clean, dark-themed Android app to **explore, search, and track Indian Mutual F
 ---
 
 ##  Screenshots
-
+ 
 | Explore | Search | Search Results |
 |--------|--------|----------------|
-| ![Explore](screenshots/explore.jpeg) | ![Search Empty](screenshots/search_empty.jpeg) | ![Search Results](screenshots/search_results.jpeg) |
-
+| <img src="screenshots/explore.jpeg" width="180"/> | <img src="screenshots/search_empty.jpeg" width="180"/> | <img src="screenshots/search_results.jpeg" width="180"/> |
+ 
 | Fund Detail | Add to Watchlist | All Funds |
 |------------|-----------------|-----------|
-| ![Fund Detail](screenshots/fund_detail.jpeg) | ![Watchlist Sheet](screenshots/watchlist_sheet.jpeg) | ![All Funds](screenshots/all_funds.jpeg) |
-
+| <img src="screenshots/fund_detail.jpeg" width="180"/> | <img src="screenshots/watchlist_sheet.jpeg" width="180"/> | <img src="screenshots/all_funds.jpeg" width="180"/> |
+ 
 | Watchlist Empty | Watchlist |
 |----------------|-----------|
-| ![Watchlist Empty](screenshots/watchlist_empty.jpeg) | ![Watchlist](screenshots/watchlist.jpeg) |
-
-
+| <img src="screenshots/watchlist_empty.jpeg" width="180"/> | <img src="screenshots/watchlist.jpeg" width="180"/> |
+ 
+---
 ---
 
 ##  Features
