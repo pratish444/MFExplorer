@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MF Explorer</string>
+    <string name="explore">Explore</string>
+    <string name="watchlist">Watchlist</string>
+    <string name="search_funds">Search funds…</string>
+    <string name="view_all">View All</string>
+    <string name="no_watchlists_title">No Watchlists Yet</string>
+    <string name="no_watchlists_desc">Create a watchlist to start tracking your favourite mutual funds.</string>
+    <string name="create_watchlist">Create Watchlist</string>
+    <string name="empty_watchlist_title">No Funds Added Yet</string>
+    <string name="empty_watchlist_desc">Explore the market to save funds into this watchlist.</string>
+    <string name="explore_funds">Explore Funds</string>
+    <string name="add_to_watchlist">Add to Watchlist</string>
+    <string name="retry">Retry</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="error_network">No internet connection. Showing cached data.</string>
+    <string name="nav_label">NAV</string>
+    <string name="search_no_results">No funds found for your search.</string>
+</resources>
