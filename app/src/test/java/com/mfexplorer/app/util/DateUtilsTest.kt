@@ -11,7 +11,7 @@ class DateUtilsTest {
     fun `parseApiDate parses valid date string`() {
         val result = DateUtils.parseApiDate("09-04-2026")
         assertNotNull(result)
-        assertEquals(2026, result!!.year)
+        assertEquals(2026,       result!!.year)
         assertEquals(4, result.monthValue)
         assertEquals(9, result.dayOfMonth)
     }
