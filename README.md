@@ -8,16 +8,15 @@ A clean, dark-themed Android app to **explore, search, and track Indian Mutual F
 
 | Explore | Search | Search Results |
 |--------|--------|----------------|
-| ![Explore](screenshots/explore.jpeg) | ![Search Empty](screenshots/search_empty.jpeg) | ![Search Results](screenshots/search_results.jpeg) |
+| <img src="screenshots/explore.jpeg" width="180"/> | <img src="screenshots/search_empty.jpeg" width="180"/> | <img src="screenshots/search_results.jpeg" width="180"/> |
 
 | Fund Detail | Add to Watchlist | All Funds |
 |------------|-----------------|-----------|
-| ![Fund Detail](screenshots/fund_detail.jpeg) | ![Watchlist Sheet](screenshots/watchlist_sheet.jpeg) | ![All Funds](screenshots/all_funds.jpeg) |
+| <img src="screenshots/fund_detail.jpeg" width="180"/> | <img src="screenshots/watchlist_sheet.jpeg" width="180"/> | <img src="screenshots/all_funds.jpeg" width="180"/> |
 
 | Watchlist Empty | Watchlist |
 |----------------|-----------|
-| ![Watchlist Empty](screenshots/watchlist_empty.jpeg) | ![Watchlist](screenshots/watchlist.jpeg) |
-
+| <img src="screenshots/watchlist_empty.jpeg" width="180"/> | <img src="screenshots/watchlist.jpeg" width="180"/> |
 
 ---
 
@@ -70,7 +69,26 @@ com.mfexplorer.app
 | Networking | Retrofit 2.9.0 + OkHttp 4.12.0 + Gson |
 | Local Database | Room 2.6.1 |
 | Preferences | DataStore |
+| Animations | Lottie Compose 6.3.0 |
 | Testing | JUnit 4, MockK, Turbine, Coroutines Test |
+
+---
+
+##  Unit Testing
+
+**21 tests passing** across 3 test classes — covering the repository, ViewModel, and utility layers.
+
+| Test Class | Tests |
+|------------|-------|
+| `WatchlistRepositoryTest` | CRUD operations, ordering, Flow delegation |
+| `SearchViewModelTest` | Initial state, query changes, clear, 300ms debounce |
+| `DateUtilsTest` | Date parsing, NAV formatting, change calculation |
+
+<img src="screenshots/tests_passing.png" width="700"/>
+
+```bash
+./gradlew test
+```
 
 ---
 
@@ -102,7 +120,6 @@ Base URL: `https://api.mfapi.in/`
    git clone https://github.com/pratish444/MFExplorer
    cd MFExplorer
    ```
-   
 
 2. **Open in Android Studio**
     - File → Open → select the `MFExplorer` folder
@@ -125,9 +142,3 @@ No API keys or environment variables are needed — the app works out of the box
 | `versionName` | 1.0 |
 | Kotlin | 1.9.x |
 | Compose BOM | 2024.02.00 |
-
-
-
----
-
-
