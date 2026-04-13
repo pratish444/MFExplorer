@@ -84,7 +84,7 @@ com.mfexplorer.app
 | `SearchViewModelTest` | Initial state, query changes, clear, 300ms debounce |
 | `DateUtilsTest` | Date parsing, NAV formatting, change calculation |
 
-<img src="screenshots/tests_passing.png" width="700"/>
+<!-- <img src="screenshots/tests_passing.png" width="700"/> -->
 
 ```bash
 ./gradlew test
